@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+  }
+  
+  .stopwatch-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #121212;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #time-display {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #121212;
+    letter-spacing: 1px;
+    font-variant-numeric: tabular-nums;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #start-stop-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #reset-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  #lap-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  #laps {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    color: black;
+    font-size: 1rem;
+  }
+  
+  #laps div {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #121212;
+}
+
+.dark-mode .stopwatch-container {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode h1,
+.dark-mode #time-display{
+  color: white;
+}
+
+.dark-mode #laps {
+  color: black;
+}
+
+.controls .btn {
+  background-color: #444;
+  color: white;
+}
+
+.controls .btn:hover {
+  background-color: #555;
+}
+
+.dark-mode .controls .btn {
+  background-color: #555;
+}
+
+/* Toggle Button for Dark Mode */
+.toggle-btn {
+  background-color: #ff7f50; /* Coral */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.toggle-btn:hover {
+  background-color: #ff6347; /* Tomato */
+}
