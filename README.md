@@ -1,8 +1,6 @@
 Visit Project:- https://axrya.github.io/PRODIGY_WD_02/
 
-Stopwatch Web Application
-
-Prodigy InfoTech Internship Task 2:-
+Prodigy InfoTech Internship Task 2 (Stopwatch Web Application):-
 
 This repository contains the source code for a Stopwatch Web Application created using HTML, CSS, and JavaScript. The project also includes a Dark Mode feature that can be toggled on and off, offering a user-friendly interface for time tracking with start, stop, reset, and lap functionalities.
 
