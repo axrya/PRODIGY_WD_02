@@ -1,3 +1,5 @@
+#PRODIGY_WD_03
+
 ⏱️ Enhanced Stopwatch Web Application
 
 This project is part of my internship at Prodigy InfoTech as a Web Development Intern. It is my second task in the program and involves building an interactive Stopwatch Web Application using HTML, CSS, and JavaScript. The application features start, stop, reset, and lap functionalities, along with a modern Dark Mode toggle to enhance the user experience.
