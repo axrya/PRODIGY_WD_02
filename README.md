@@ -1,19 +1,27 @@
-Visit Project:- https://axrya.github.io/PRODIGY_WD_02/
+⏱️ Enhanced Stopwatch Web Application
 
-Prodigy InfoTech Internship Task 2 (Stopwatch Web Application):-
+This project is part of my internship at Prodigy InfoTech as a Web Development Intern. It is my second task in the program and involves building an interactive Stopwatch Web Application using HTML, CSS, and JavaScript. The application features start, stop, reset, and lap functionalities, along with a modern Dark Mode toggle to enhance the user experience.
 
-This repository contains the source code for a Stopwatch Web Application created using HTML, CSS, and JavaScript. The project also includes a Dark Mode feature that can be toggled on and off, offering a user-friendly interface for time tracking with start, stop, reset, and lap functionalities.
+📌 Project Overview
 
-Features
+- Internship Program: Web Development Internship
+- Company: Prodigy InfoTech
+- Task Number: #2
+- Role: Web Development Intern
 
-1. Start/Stop Functionality: Allows the user to start and pause the stopwatch.
-2. Reset: Resets the timer back to 00:00:00.000.
-3. Lap Recording: Users can record multiple laps, which are displayed below the stopwatch.
-4. Dark Mode: A toggle button allows the user to switch between light and dark themes.
-5. Responsive Design: The layout adjusts for different screen sizes, ensuring a smooth user experience on both desktop and mobile devices.
+The goal was to develop a responsive and interactive stopwatch application as part of the company's frontend learning objectives. This task focused on implementing accurate time-tracking features, creating a toggleable Dark Mode, and applying good CSS design principles.
 
-Technologies Used
+🎨 Features
 
-1. HTML: Provides the structure of the stopwatch interface.
-2. CSS: Adds styling, including a glassmorphism effect and smooth transitions between light and dark modes.
-3. JavaScript: Handles the stopwatch functionalities and toggles dark mode.
+- Start/Stop Functionality: Starts or pauses the timer.
+- Reset: Resets the stopwatch back to 00:00:00.000.
+- Lap Recording: Records laps and displays them dynamically below the stopwatch.
+- Dark Mode: Allows users to switch between light and dark themes using a toggle button.
+- Interactive Animations: Smooth animations on buttons and container to create a modern feel.
+- Responsive Design: Compatible with various screen sizes for an optimal user experience.
+
+🛠️ Technologies Used
+
+- HTML5: Structured the content and UI elements.
+- CSS3: Applied styling, layouts, and implemented Dark Mode.
+- JavaScript (ES6): Handled stopwatch functionality, lap recording, and Dark Mode toggling.
